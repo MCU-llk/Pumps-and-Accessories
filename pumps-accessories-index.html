@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en-ZA" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pumps & Accessories Pty Ltd | Industrial Pumping Systems & Spares Booysens JHB</title>
+  <meta name="description" content="Leading industrial pump distributors and spare parts stockists in Booysens, Johannesburg. Centrifugal, positive displacement, slurry pumps, mechanical seals, and valves.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Alpine.js CDN -->
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#0F172A',
+              slate: '#334155',
+              darkSlate: '#1E293B',
+              orange: '#F97316',
+              orangeHover: '#EA580C',
+              surface: '#F8FAFC'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-brand-surface text-brand-navy font-sans antialiased pb-24 lg:pb-0 selection:bg-brand-orange selection:text-white">
+
+  <!-- Top Industrial Hub Notification Strip -->
+  <div class="bg-brand-navy text-slate-300 text-xs sm:text-sm py-2 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center gap-2.5">
+        <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-black bg-brand-orange text-white uppercase tracking-wider">
+          Booysens Trade Counter
+        </span>
+        <span class="flex items-center gap-1.5 text-slate-300 font-medium">
+          <svg class="w-3.5 h-3.5 text-brand-orange shrink-0" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+          </svg>
+          8 Hay St, Booysens, Johannesburg
+        </span>
+      </div>
+      <div class="flex items-center gap-4 text-xs sm:text-sm">
+        <span class="hidden md:inline-flex items-center gap-1 text-slate-400">
+          <svg class="w-3.5 h-3.5 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          Mon–Fri: 08:00 – 17:00
+        </span>
+        <span class="text-slate-600 hidden md:inline">|</span>
+        <a href="tel:0114937656" class="text-brand-orange hover:text-white font-bold flex items-center gap-1.5 transition-colors">
+          <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"></path>
+          </svg>
+          011 493 7656
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Identity -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-12 h-12 bg-brand-navy rounded-xl flex items-center justify-center border-2 border-brand-orange shadow-md shadow-orange-500/10 group-hover:scale-105 transition-transform">
+          <svg class="w-7 h-7 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+          </svg>
+        </div>
+        <div>
+          <div class="text-xl sm:text-2xl font-black text-brand-navy tracking-tight leading-none uppercase">
+            PUMPS & <span class="text-brand-orange">ACCESSORIES</span>
+          </div>
+          <span class="text-[11px] font-bold text-slate-500 tracking-wider uppercase block mt-1">Pty Ltd • Booysens Engineering Hub</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links & CTAs -->
+      <div class="hidden lg:flex items-center gap-8">
+        <a href="#catalogue" class="text-sm font-bold text-slate-700 hover:text-brand-orange transition-colors">Pumps & Spares</a>
+        <a href="#gallery" class="text-sm font-bold text-slate-700 hover:text-brand-orange transition-colors">Gallery</a>
+        <a href="#technical-quote" class="text-sm font-bold text-slate-700 hover:text-brand-orange transition-colors">Technical Specifier</a>
+        <a href="#location-hours" class="text-sm font-bold text-slate-700 hover:text-brand-orange transition-colors">Trade Counter & Workshop</a>
+
+        <div class="flex items-center gap-3">
+          <a href="tel:0114937656" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-slate-300 font-bold text-sm text-slate-800 hover:bg-slate-50 transition-colors">
+            <svg class="w-4 h-4 text-brand-orange" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"></path>
+            </svg>
+            011 493 7656
+          </a>
+
+          <a href="https://wa.me/27114937656?text=Hi%20Pumps%20%26%20Accessories,%20I%20would%20like%20to%20request%20a%20quote%20for%20pumps/spare%20parts." 
+             target="_blank" rel="noopener noreferrer" 
+             class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm shadow-md shadow-emerald-600/20 transition-all">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+            WhatsApp Desk
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Mobile Call Button -->
+      <a href="tel:0114937656" aria-label="Call Pumps & Accessories on 011 493 7656" class="lg:hidden p-2.5 rounded-xl bg-slate-100 text-brand-navy border border-slate-200">
+        <svg class="w-5 h-5 text-brand-orange" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"></path>
+        </svg>
+      </a>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-b from-brand-navy via-brand-darkSlate to-brand-slate text-white overflow-hidden py-14 sm:py-20 lg:py-24">
+    <!-- Grid Blueprint Texture -->
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#F97316_1px,transparent_1px)] [background-size:24px_24px]"></div>
+    <div class="absolute -top-36 -right-36 w-96 h-96 bg-brand-orange/20 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Hero Copy -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-slate-800/90 border border-slate-700 text-slate-200 text-xs sm:text-sm font-semibold shadow-inner">
+            <span class="w-2 h-2 rounded-full bg-brand-orange animate-pulse"></span>
+            <span class="font-bold text-white">Genuine OEM & Aftermarket Spares</span>
+            <span class="text-slate-400">| Booysens, JHB</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.12] text-white">
+            Industrial Pumping Systems & Parts Supplier in <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange via-amber-400 to-orange-200">Booysens, Johannesburg</span>
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+            Keep plant operations running with zero friction. We supply heavy-duty industrial fluid machinery, mechanical seals, replacement impellers, high-pressure valves, and complete pump assemblies backed by rapid turnaround across Southern Africa.
+          </p>
+
+          <!-- Core Capability Highlights -->
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 pb-2 text-left">
+            <div class="p-3.5 rounded-xl bg-slate-800/70 border border-slate-700 backdrop-blur-sm">
+              <div class="text-brand-orange font-black text-sm sm:text-base">Extensive Spares</div>
+              <div class="text-slate-400 text-xs">Seals, bearings, shafts & sleeves</div>
+            </div>
+            <div class="p-3.5 rounded-xl bg-slate-800/70 border border-slate-700 backdrop-blur-sm">
+              <div class="text-brand-orange font-black text-sm sm:text-base">Rapid Dispatch</div>
+              <div class="text-slate-400 text-xs">Trade counter pickup in Booysens</div>
+            </div>
+            <div class="p-3.5 rounded-xl bg-slate-800/70 border border-slate-700 backdrop-blur-sm col-span-2 sm:col-span-1">
+              <div class="text-brand-orange font-black text-sm sm:text-base">Technical Sizing</div>
+              <div class="text-slate-400 text-xs">Direct pump engineers on desk</div>
+            </div>
+          </div>
+
+          <!-- Dual Hero CTAs -->
+          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-3">
+            <a href="https://wa.me/27114937656?text=Hi%20Pumps%20%26%20Accessories,%20I%20need%20a%20quote%20for%20industrial%20pumps/parts.%20I%20can%20provide%20part%20numbers/nameplate%20photos." 
+               target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-3 px-7 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-black text-base shadow-xl shadow-emerald-600/30 transition-all group">
+              <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+              <span>Request Parts Quote on WhatsApp</span>
+            </a>
+
+            <a href="tel:0114937656" 
+               class="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-600 text-white font-bold text-base transition-all">
+              <svg class="w-5 h-5 text-brand-orange" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"></path>
+              </svg>
+              <span>Call: 011 493 7656</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Right Quick Procurement Snapshot Card -->
+        <div class="lg:col-span-5">
+          <div class="bg-brand-darkSlate/95 border border-slate-700 p-6 sm:p-8 rounded-3xl shadow-2xl backdrop-blur-md relative">
+            <div class="flex items-center justify-between pb-5 border-b border-slate-700">
+              <div>
+                <span class="text-xs uppercase tracking-widest text-brand-orange font-bold">Engineering Distribution</span>
+                <h3 class="text-xl font-black text-white mt-0.5">Pumps & Accessories Pty Ltd</h3>
+              </div>
+              <div class="w-10 h-10 rounded-xl bg-brand-orange/20 text-brand-orange flex items-center justify-center font-bold">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Bulleted Assurances -->
+            <div class="space-y-4 py-5">
+              <div class="flex items-start gap-3">
+                <div class="w-7 h-7 rounded-lg bg-orange-500/10 border border-orange-500/20 text-brand-orange flex items-center justify-center shrink-0 mt-0.5 font-bold text-xs">
+                  01
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-white">Full Fluid Handling Range</h4>
+                  <p class="text-xs text-slate-300 mt-0.5">Centrifugal, multi-stage, positive displacement, progressive cavity, and submersible sump units.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="w-7 h-7 rounded-lg bg-orange-500/10 border border-orange-500/20 text-brand-orange flex items-center justify-center shrink-0 mt-0.5 font-bold text-xs">
+                  02
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-white">Critical Seal & Component Inventory</h4>
+                  <p class="text-xs text-slate-300 mt-0.5">Silicon carbide, carbon/ceramic mechanical seals, gland packings, cast iron and bronze impellers.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <div class="w-7 h-7 rounded-lg bg-orange-500/10 border border-orange-500/20 text-brand-orange flex items-center justify-center shrink-0 mt-0.5 font-bold text-xs">
+                  03
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-white">Strategic Booysens Location</h4>
+                  <p class="text-xs text-slate-300 mt-0.5">Directly connected to the M1 / M2 motorway belt for fast courier collection and workshop drive-ins.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-4 border-t border-slate-700/80 flex items-center justify-between text-xs text-slate-400">
+              <span class="text-emerald-400 font-bold flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                Official Domain: pumpsacc.co.za
+              </span>
+              <span>8 Hay St, Booysens</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Trade Credibility Bar -->
+  <section class="bg-white border-y border-slate-200 py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center divide-y md:divide-y-0 md:divide-x divide-slate-200">
+        
+        <div class="pt-3 md:pt-0">
+          <div class="text-3xl sm:text-4xl font-black text-brand-navy">Booysens</div>
+          <div class="text-xs uppercase tracking-wider text-slate-600 font-bold mt-1">Industrial Distribution</div>
+          <div class="text-xs text-slate-400 mt-0.5">8 Hay St Workshop & Counter</div>
+        </div>
+
+        <div class="pt-3 md:pt-0">
+          <div class="text-3xl sm:text-4xl font-black text-brand-orange">10,000+</div>
+          <div class="text-xs uppercase tracking-wider text-slate-600 font-bold mt-1">Spares & Seals Sourced</div>
+          <div class="text-xs text-slate-400 mt-0.5">OEM & High-Spec Aftermarket</div>
+        </div>
+
+        <div class="pt-3 md:pt-0">
+          <div class="text-3xl sm:text-4xl font-black text-brand-navy">Mon – Fri</div>
+          <div class="text-xs uppercase tracking-wider text-slate-600 font-bold mt-1">08:00 – 17:00 Trade Hours</div>
+          <div class="text-xs text-slate-400 mt-0.5">Dedicated Counter Support</div>
+        </div>
+
+        <div class="pt-3 md:pt-0">
+          <div class="text-3xl sm:text-4xl font-black text-brand-orange">Full Spec</div>
+          <div class="text-xs uppercase tracking-wider text-slate-600 font-bold mt-1">Pumps & Valves</div>
+          <div class="text-xs text-slate-400 mt-0.5">Industrial, Mining & Building</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Services & Products Grid -->
+  <section id="catalogue" class="py-16 sm:py-24 bg-brand-surface">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-brand-orange font-extrabold uppercase tracking-wider text-xs sm:text-sm">Engineered Inventory</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-brand-navy tracking-tight mt-1.5">
+          Heavy Industrial Pumping Machinery & Component Supply
+        </h2>
+        <p class="text-slate-600 mt-3 text-sm sm:text-base leading-relaxed">
+          We equip mines, chemical processing plants, municipal contractors, and commercial facilities with durable pumps and certified accessories.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <!-- Product 1: Complete Industrial Pumping Machinery -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200/90 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-brand-orange flex items-center justify-center mb-5 group-hover:bg-brand-orange group-hover:text-white transition-colors">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-brand-navy mb-2">Industrial Pumping Machinery</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Complete pump units for heavy duty transfers: End-suction centrifugal, vertical multistage booster, self-priming trash, and positive displacement pumps.
+            </p>
+            <ul class="text-xs text-slate-500 space-y-2 mb-6">
+              <li class="flex items-center gap-2">
+                <span class="text-brand-orange font-bold">✔</span> Stainless steel, cast iron & bronze bodies
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-brand-orange font-bold">✔</span> Electric motor & diesel driven skid mounts
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-brand-orange font-bold">✔</span> High-head multi-stage configurations
+              </li>
+            </ul>
+          </div>
+          <a href="https://wa.me/27114937656?text=Hi%20Pumps%20%26%20Accessories,%20I%20need%20a%20quote%20for%20a%20Complete%20Industrial%20Pump%20Unit." 
+             target="_blank" rel="noopener noreferrer"
+             class="text-sm font-bold text-brand-orange hover:text-brand-orangeHover flex items-center gap-1 group-hover:translate-x-1 transition-all">
+            Quote Pump Units →
+          </a>
+        </div>
+
+        <!-- Product 2: Spare Parts & Mechanical Seals -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200/90 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-brand-orange flex items-center justify-center mb-5 group-hover:bg-brand-orange group-hover:text-white transition-colors">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-brand-navy mb-2">Replacement Spares & Seals</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Comprehensive stock of precision internal wear parts: Single and double cartridge mechanical seals, shaft sleeves, wear plates, and impellers.
+            </p>
+            <ul class="text-xs text-slate-500 space-y-2 mb-6">
+              <li class="flex items-center gap-2">
+                <span class="text-brand-orange font-bold">✔</span> OEM & aftermarket mechanical seals (SiC, TC, Viton)
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-brand-orange font-bold">✔</span> Replacement volute casings and pump shafts
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-brand-orange font-bold">✔</span> Bearing assemblies and gasket overhaul kits
+              </li>
+            </ul>
+          </div>
+          <a href="https://wa.me/27114937656?text=Hi%20Pumps%20%26%20Accessories,%20I%20am%20looking%20for%20replacement%20mechanical%20seals%20or%20spare%20parts." 
+             target="_blank" rel="noopener noreferrer"
+             class="text-sm font-bold text-brand-orange hover:text-brand-orangeHover flex items-center gap-1 group-hover:translate-x-1 transition-all">
+            Quote Pump Spares →
+          </a>
+        </div>
+
+        <!-- Product 3: Valve & Hose Accessories -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200/90 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-brand-orange flex items-center justify-center mb-5 group-hover:bg-brand-orange group-hover:text-white transition-colors">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-brand-navy mb-2">Valve & Line Accessories</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Essential flow control components: Non-return check valves, butterfly valves, gate valves, suction strainers, and heavy-duty delivery layflat hoses.
+            </p>
+            <ul class="text-xs text-slate-500 space-y-2 mb-6">
+              <li class="flex items-center gap-2">
+                <span class="text-brand-orange font-bold">✔</span> Flanged and threaded check & foot valves
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-brand-orange font-bold">✔</span> Pressure gauges & dry-run protection sensors
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-brand-orange font-bold">✔</span> Camlock fittings & reinforced suction hoses
+              </li>
+            </ul>
+          </div>
+          <a href="https://wa.me/27114937656?text=Hi%20Pumps%20%26%20Accessories,%20I%20need%20a%20quote%20for%20valves,%20fittings,%20or%20hose%20accessories." 
+             target="_blank" rel="noopener noreferrer"
+             class="text-sm font-bold text-brand-orange hover:text-brand-orangeHover flex items-center gap-1 group-hover:translate-x-1 transition-all">
+            Quote Accessories →
+          </a>
+        </div>
+
+        <!-- Product 4: Testing & Overhaul Services -->
+        <div class="bg-white rounded-2xl p-6 border border-slate-200/90 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-brand-orange flex items-center justify-center mb-5 group-hover:bg-brand-orange group-hover:text-white transition-colors">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-brand-navy mb-2">Pump Overhaul & Testing</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Bring worn equipment to our Booysens workshop. Full teardown, chemical de-scaling, precision dynamic balancing, and pressure performance testing.
+            </p>
+            <ul class="text-xs text-slate-500 space-y-2 mb-6">
+              <li class="flex items-center gap-2">
+                <span class="text-brand-orange font-bold">✔</span> Detailed strip-and-quote inspection reports
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-brand-orange font-bold">✔</span> Laser shaft alignment & vibration testing
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-brand-orange font-bold">✔</span> Workshop warranty on reconditioned pumps
+              </li>
+            </ul>
+          </div>
+          <a href="https://wa.me/27114937656?text=Hi%20Pumps%20%26%20Accessories,%20I%20have%20a%20pump%20that%20needs%20servicing/overhaul." 
+             target="_blank" rel="noopener noreferrer"
+             class="text-sm font-bold text-brand-orange hover:text-brand-orangeHover flex items-center gap-1 group-hover:translate-x-1 transition-all">
+            Book Pump Service →
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Equipment Gallery -->
+  <section id="gallery" class="py-16 sm:py-24 bg-white border-y border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <h2 class="text-3xl sm:text-4xl font-black text-brand-navy tracking-tight">Equipment Gallery</h2>
+        <p class="text-slate-600 mt-3 text-sm sm:text-base leading-relaxed">
+          Pumps, valves and processing equipment. Send us a photo or part number and we will check what we can supply.
+        </p>
+      </div>
+
+      <div class="columns-2 md:columns-3 gap-5">
+          <figure class="break-inside-avoid mb-5 bg-slate-50 border border-slate-200 rounded-2xl p-2.5 shadow-sm">
+            <img src="images/equip-01.jpg" width="278" height="142" alt="Long stainless steel food packaging line" loading="lazy" decoding="async" class="w-full h-auto rounded-xl bg-white">
+            <figcaption class="px-1 pt-2.5 pb-1 text-xs font-semibold text-slate-600 leading-snug">Packaging line for food products</figcaption>
+          </figure>
+          <figure class="break-inside-avoid mb-5 bg-slate-50 border border-slate-200 rounded-2xl p-2.5 shadow-sm">
+            <img src="images/equip-02.jpg" width="185" height="206" alt="Stainless steel vertical filling machine on castors" loading="lazy" decoding="async" class="w-full h-auto rounded-xl bg-white">
+            <figcaption class="px-1 pt-2.5 pb-1 text-xs font-semibold text-slate-600 leading-snug">Compact vertical filling machine on wheels</figcaption>
+          </figure>
+          <figure class="break-inside-avoid mb-5 bg-slate-50 border border-slate-200 rounded-2xl p-2.5 shadow-sm">
+            <img src="images/equip-03.jpg" width="263" height="160" alt="Three stainless steel butterfly valves, one with a lever handle and two with actuators" loading="lazy" decoding="async" class="w-full h-auto rounded-xl bg-white">
+            <figcaption class="px-1 pt-2.5 pb-1 text-xs font-semibold text-slate-600 leading-snug">Sanitary butterfly valves: manual, pneumatic and controlled</figcaption>
+          </figure>
+          <figure class="break-inside-avoid mb-5 bg-slate-50 border border-slate-200 rounded-2xl p-2.5 shadow-sm">
+            <img src="images/equip-04.jpg" width="257" height="191" alt="Stainless steel filling machine with a blue touchscreen panel" loading="lazy" decoding="async" class="w-full h-auto rounded-xl bg-white">
+            <figcaption class="px-1 pt-2.5 pb-1 text-xs font-semibold text-slate-600 leading-snug">Filling machine with touchscreen control</figcaption>
+          </figure>
+          <figure class="break-inside-avoid mb-5 bg-slate-50 border border-slate-200 rounded-2xl p-2.5 shadow-sm">
+            <img src="images/equip-05.jpg" width="260" height="126" alt="Stainless steel multi-station cartoning line with glass guards" loading="lazy" decoding="async" class="w-full h-auto rounded-xl bg-white">
+            <figcaption class="px-1 pt-2.5 pb-1 text-xs font-semibold text-slate-600 leading-snug">Multi-station cartoning line</figcaption>
+          </figure>
+          <figure class="break-inside-avoid mb-5 bg-slate-50 border border-slate-200 rounded-2xl p-2.5 shadow-sm">
+            <img src="images/equip-06.jpg" width="278" height="188" alt="Stainless steel processing line with tanks, pipework and conveyor" loading="lazy" decoding="async" class="w-full h-auto rounded-xl bg-white">
+            <figcaption class="px-1 pt-2.5 pb-1 text-xs font-semibold text-slate-600 leading-snug">Processing line with tanks and pipework</figcaption>
+          </figure>
+          <figure class="break-inside-avoid mb-5 bg-slate-50 border border-slate-200 rounded-2xl p-2.5 shadow-sm">
+            <img src="images/equip-07.jpg" width="135" height="151" alt="Stainless steel ice cream freezer with blue control display and outlet" loading="lazy" decoding="async" class="w-full h-auto rounded-xl bg-white">
+            <figcaption class="px-1 pt-2.5 pb-1 text-xs font-semibold text-slate-600 leading-snug">Ice cream freezer unit with control panel</figcaption>
+          </figure>
+          <figure class="break-inside-avoid mb-5 bg-slate-50 border border-slate-200 rounded-2xl p-2.5 shadow-sm">
+            <img src="images/equip-08.jpg" width="268" height="218" alt="Blue lobe pump with rotor covers and a set of loose lobes" loading="lazy" decoding="async" class="w-full h-auto rounded-xl bg-white">
+            <figcaption class="px-1 pt-2.5 pb-1 text-xs font-semibold text-slate-600 leading-snug">Lobe pump with spare lobes and rotor covers</figcaption>
+          </figure>
+          <figure class="break-inside-avoid mb-5 bg-slate-50 border border-slate-200 rounded-2xl p-2.5 shadow-sm">
+            <img src="images/equip-09.jpg" width="275" height="254" alt="Stainless steel sanitary ball valves with actuators and a lever handle" loading="lazy" decoding="async" class="w-full h-auto rounded-xl bg-white">
+            <figcaption class="px-1 pt-2.5 pb-1 text-xs font-semibold text-slate-600 leading-snug">Actuated and manual stainless steel ball valves</figcaption>
+          </figure>
+      </div>
+
+      <div class="text-center mt-6">
+        <a href="https://wa.me/27114937656?text=Hi%20Pumps%20%26%20Accessories,%20I%20saw%20your%20equipment%20gallery%20and%20need%20a%20quote." target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm shadow-md shadow-emerald-600/20 transition-colors">
+          Ask about this equipment on WhatsApp
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Alpine.js Technical Quote Calculator / WhatsApp Lead Form -->
+  <section id="technical-quote" class="py-16 sm:py-24 bg-brand-navy text-white relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-12">
+        <span class="inline-block text-brand-orange font-black uppercase tracking-wider text-xs sm:text-sm mb-2">Fast Technical Specifier</span>
+        <h2 class="text-3xl sm:text-4xl font-black tracking-tight">Request an Engineering Quotation</h2>
+        <p class="text-slate-300 text-sm sm:text-base mt-2 max-w-xl mx-auto">
+          Specify your pump model, part number, or technical flow requirements below. Our technical desk in Booysens will respond with availability and pricing on WhatsApp.
+        </p>
+      </div>
+
+      <!-- Alpine Component -->
+      <div x-data="{
+        componentType: 'Complete Industrial Pump Unit',
+        pumpApplication: 'Industrial / Chemical Transfer',
+        partNumberOrModel: '',
+        urgency: 'Standard Pricing / Next Delivery',
+        additionalSpecs: '',
+        generateLink() {
+          let text = '⚙️ *TECHNICAL INQUIRY - PUMPS & ACCESSORIES PTY LTD*\n\n';
+          text += '📦 *Inquiry Type:* ' + this.componentType + '\n';
+          text += '🏭 *Application:* ' + this.pumpApplication + '\n';
+          text += '⏱️ *Urgency:* ' + this.urgency + '\n';
+          if (this.partNumberOrModel.trim()) {
+            text += '🏷️ *Part No. / Pump Model:* ' + this.partNumberOrModel.trim() + '\n';
+          }
+          if (this.additionalSpecs.trim()) {
+            text += '📝 *Specs / Flow / Head:* ' + this.additionalSpecs.trim() + '\n';
+          }
+          text += '\n📍 Location: Booysens Trade Counter / Greater JHB\n';
+          text += '*(Generated via pumpsacc.co.za specifier)*';
+          return 'https://wa.me/27114937656?text=' + encodeURIComponent(text);
+        }
+      }" class="bg-brand-darkSlate border border-slate-700 rounded-3xl p-6 sm:p-10 shadow-2xl">
+
+        <form @submit.prevent="window.open(generateLink(), '_blank')" class="space-y-6">
+          
+          <!-- Step 1: Component Selection -->
+          <div>
+            <label class="block text-sm font-bold text-slate-200 mb-2.5">1. Select Requirement Type</label>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <label :class="componentType === 'Complete Industrial Pump Unit' ? 'border-brand-orange bg-brand-orange/10 text-white' : 'border-slate-700 bg-slate-800 text-slate-300'" class="border p-3.5 rounded-xl cursor-pointer flex items-center gap-3 transition-colors">
+                <input type="radio" value="Complete Industrial Pump Unit" x-model="componentType" class="text-brand-orange focus:ring-0">
+                <span class="text-sm font-semibold">Complete Pump Unit</span>
+              </label>
+
+              <label :class="componentType === 'Replacement Spare Parts / Seals' ? 'border-brand-orange bg-brand-orange/10 text-white' : 'border-slate-700 bg-slate-800 text-slate-300'" class="border p-3.5 rounded-xl cursor-pointer flex items-center gap-3 transition-colors">
+                <input type="radio" value="Replacement Spare Parts / Seals" x-model="componentType" class="text-brand-orange focus:ring-0">
+                <span class="text-sm font-semibold">Mechanical Seals / Spares</span>
+              </label>
+
+              <label :class="componentType === 'Valves, Hoses & Pipe Accessories' ? 'border-brand-orange bg-brand-orange/10 text-white' : 'border-slate-700 bg-slate-800 text-slate-300'" class="border p-3.5 rounded-xl cursor-pointer flex items-center gap-3 transition-colors">
+                <input type="radio" value="Valves, Hoses & Pipe Accessories" x-model="componentType" class="text-brand-orange focus:ring-0">
+                <span class="text-sm font-semibold">Valves & Pipe Accessories</span>
+              </label>
+
+              <label :class="componentType === 'Workshop Pump Overhaul / Repair' ? 'border-brand-orange bg-brand-orange/10 text-white' : 'border-slate-700 bg-slate-800 text-slate-300'" class="border p-3.5 rounded-xl cursor-pointer flex items-center gap-3 transition-colors">
+                <input type="radio" value="Workshop Pump Overhaul / Repair" x-model="componentType" class="text-brand-orange focus:ring-0">
+                <span class="text-sm font-semibold">Pump Overhaul & Repair</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Step 2: Application & Urgency -->
+          <div class="grid sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-sm font-bold text-slate-200 mb-2">2. Operating Fluid / Application</label>
+              <select x-model="pumpApplication" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-orange transition-colors">
+                <option value="Industrial / Chemical Transfer">Industrial / Chemical Transfer</option>
+                <option value="Mining Slurry & Heavy Dewatering">Mining Slurry & Heavy Dewatering</option>
+                <option value="Commercial Booster & HVAC Water">Commercial Booster & HVAC Water</option>
+                <option value="Sewage, Wastewater & Effluent">Sewage, Wastewater & Effluent</option>
+                <option value="Agricultural Irrigation & Borehole">Agricultural Irrigation & Borehole</option>
+                <option value="Food, Beverage or Sanitary Fluid">Food, Beverage or Sanitary Fluid</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-sm font-bold text-slate-200 mb-2">3. Procurement Timeline</label>
+              <select x-model="urgency" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-orange transition-colors">
+                <option value="Breakdown / Plant Stoppage (Immediate)">🚨 Urgent Breakdown / Line Down</option>
+                <option value="Same-Day Counter Collection">Same-Day Counter Collection</option>
+                <option value="Standard Pricing / Next Delivery">Standard Pricing / Next Delivery</option>
+                <option value="Tender / Project Budget Quotation">Tender / Project Budget Quotation</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Step 3: Part Number / Nameplate Input -->
+          <div>
+            <label class="block text-sm font-bold text-slate-200 mb-2">
+              4. Part Number, Pump Model or Nameplate Info <span class="text-slate-400 font-normal">(If available)</span>
+            </label>
+            <input type="text" x-model="partNumberOrModel" placeholder="e.g. KSB Etanorm 50-200, Grundfos CR15, 45mm Type 21 Seal..." class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-brand-orange transition-colors placeholder-slate-500">
+          </div>
+
+          <!-- Step 4: Flow, Head or Extra Notes -->
+          <div>
+            <label class="block text-sm font-bold text-slate-200 mb-2">
+              5. Flow Rate, Head Pressure or Technical Notes <span class="text-slate-400 font-normal">(Optional)</span>
+            </label>
+            <textarea x-model="additionalSpecs" rows="2" placeholder="e.g. Flow rate in m³/h or L/s, head in meters, motor kW rating, corrosive fluid notes..." class="w-full bg-slate-800 border border-slate-700 rounded-xl p-3 text-white text-sm focus:outline-none focus:border-brand-orange transition-colors placeholder-slate-500"></textarea>
+          </div>
+
+          <!-- Direct WhatsApp Dispatch Button -->
+          <button type="submit" class="w-full py-4 px-6 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-black text-base shadow-lg shadow-emerald-600/30 transition-all flex items-center justify-center gap-3">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+            <span>Send Spec Sheet to WhatsApp</span>
+          </button>
+
+          <p class="text-center text-xs text-slate-400">
+            💬 Pre-formats all details into a clean WhatsApp message. You can easily attach nameplate photos in the chat.
+          </p>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Business Hours & Booysens Location Section -->
+  <section id="location-hours" class="py-16 sm:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid lg:grid-cols-12 gap-8 items-stretch">
+        
+        <!-- Operating Hours Card -->
+        <div class="lg:col-span-5 bg-slate-50 border border-slate-200 rounded-3xl p-6 sm:p-8 flex flex-col justify-between shadow-sm">
+          <div>
+            <div class="flex items-center gap-3 mb-6">
+              <div class="w-10 h-10 rounded-xl bg-orange-500/10 text-brand-orange flex items-center justify-center font-black">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-brand-navy">Trade Counter Hours</h3>
+                <span class="text-xs text-slate-500">Booysens Parts Collection & Despatch</span>
+              </div>
+            </div>
+
+            <!-- Operating Schedule Table -->
+            <div class="divide-y divide-slate-200 text-sm">
+              <div class="py-3.5 flex justify-between items-center">
+                <span class="font-bold text-slate-700">Monday – Friday</span>
+                <span class="px-3 py-1 rounded-full bg-slate-200 text-brand-navy font-black text-xs">08:00 – 17:00</span>
+              </div>
+              <div class="py-3.5 flex justify-between items-center">
+                <span class="font-semibold text-slate-500">Saturday</span>
+                <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-400 font-bold text-xs">Closed</span>
+              </div>
+              <div class="py-3.5 flex justify-between items-center">
+                <span class="font-semibold text-slate-500">Sunday</span>
+                <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-400 font-bold text-xs">Closed</span>
+              </div>
+            </div>
+
+            <div class="mt-6 p-4 rounded-2xl bg-orange-50 border border-orange-200/80">
+              <div class="text-xs font-black text-orange-900 uppercase flex items-center gap-1.5">
+                <span class="w-2.5 h-2.5 rounded-full bg-brand-orange"></span>
+                Courier & Workshop Deliveries
+              </div>
+              <p class="text-xs text-orange-800 mt-1.5 leading-relaxed">
+                Courier collections, heavy bakkie loading, and breakdown drop-offs are processed continuously between 08:00 and 17:00 Monday to Friday.
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-200">
+            <a href="tel:0114937656" class="w-full py-3.5 px-4 rounded-xl border border-slate-300 text-brand-navy font-bold text-sm text-center block hover:bg-slate-100 transition-colors">
+              Direct Phone Call: 011 493 7656
+            </a>
+          </div>
+        </div>
+
+        <!-- Booysens Workshop & Warehouse Card -->
+        <div class="lg:col-span-7 bg-brand-navy rounded-3xl text-white p-6 sm:p-8 flex flex-col justify-between shadow-xl relative overflow-hidden">
+          <div>
+            <div class="flex items-center gap-3 mb-6">
+              <div class="w-10 h-10 rounded-xl bg-brand-orange text-white flex items-center justify-center font-bold">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-white">Booysens Central Facility</h3>
+                <span class="text-xs text-slate-400">Johannesburg South Industrial Engineering Corridor</span>
+              </div>
+            </div>
+
+            <div class="space-y-4">
+              <div>
+                <span class="text-xs font-bold text-brand-orange uppercase tracking-wider block">Physical Address</span>
+                <div class="text-lg sm:text-xl font-black text-white mt-1">
+                  8 Hay St, Booysens, Johannesburg, 2091
+                </div>
+                <p class="text-xs text-slate-300 mt-1.5 leading-relaxed">
+                  Fast access from Booysens Road, Crown Mines, Selby, and the M1 / M2 highway junction. Complete offloading area for commercial logistics.
+                </p>
+              </div>
+
+              <!-- Quick Facility Badges -->
+              <div class="grid grid-cols-2 gap-3 pt-3">
+                <div class="p-3.5 bg-slate-800/80 rounded-xl border border-slate-700">
+                  <div class="text-brand-orange font-bold text-sm">Trade Spares Counter</div>
+                  <div class="text-slate-400 text-xs mt-0.5">Walk-in seal matching & parts pickup</div>
+                </div>
+                <div class="p-3.5 bg-slate-800/80 rounded-xl border border-slate-700">
+                  <div class="text-brand-orange font-bold text-sm">Fitting & Assembly Bay</div>
+                  <div class="text-slate-400 text-xs mt-0.5">Heavy industrial rebuilds & tests</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-800 flex flex-col sm:flex-row gap-3">
+            <a href="https://maps.google.com/?q=8+Hay+St,+Booysens,+Johannesburg,+2091" 
+               target="_blank" rel="noopener noreferrer" 
+               class="flex-1 py-3.5 px-5 rounded-xl bg-brand-orange hover:bg-brand-orangeHover text-white font-black text-sm text-center transition-colors flex items-center justify-center gap-2">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+              </svg>
+              Get Google Maps Directions
+            </a>
+
+            <a href="https://wa.me/27114937656?text=Hi%20Pumps%20%26%20Accessories,%20please%20send%20me%20your%20Booysens%20trade%20counter%20location%20pin." 
+               target="_blank" rel="noopener noreferrer" 
+               class="py-3.5 px-5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-bold text-sm text-center border border-slate-700 transition-colors">
+              Request WhatsApp Pin
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- High-Trust Footer -->
+  <footer class="bg-brand-navy text-slate-400 border-t border-slate-800 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+        
+        <!-- Company Identity -->
+        <div class="md:col-span-2 space-y-4">
+          <div class="text-2xl font-black text-white uppercase tracking-tight">
+            PUMPS & <span class="text-brand-orange">ACCESSORIES</span> PTY LTD
+          </div>
+          <p class="text-sm text-slate-400 max-w-sm leading-relaxed">
+            Johannesburg distributors of industrial fluid pumping machinery, replacement mechanical seals, impellers, valves, and commercial overhaul services.
+          </p>
+          <div class="text-xs text-slate-500">
+            8 Hay St, Booysens, Johannesburg, 2091 • Phone: 011 493 7656
+          </div>
+        </div>
+
+        <!-- Solutions Links -->
+        <div>
+          <h4 class="text-white text-sm font-bold uppercase tracking-wider mb-3">Product Categories</h4>
+          <ul class="text-sm space-y-2">
+            <li><a href="#catalogue" class="hover:text-brand-orange transition-colors">Industrial Centrifugal Pumps</a></li>
+            <li><a href="#catalogue" class="hover:text-brand-orange transition-colors">Mechanical Seals & Packings</a></li>
+            <li><a href="#catalogue" class="hover:text-brand-orange transition-colors">Valves, Strainers & Hoses</a></li>
+            <li><a href="#catalogue" class="hover:text-brand-orange transition-colors">Workshop Overhauls & Balancing</a></li>
+            <li><a href="#gallery" class="hover:text-brand-orange transition-colors">Equipment Gallery</a></li>
+          </ul>
+        </div>
+
+        <!-- Hours Summary -->
+        <div>
+          <h4 class="text-white text-sm font-bold uppercase tracking-wider mb-3">Trading Hours</h4>
+          <ul class="text-sm space-y-1.5 text-slate-300">
+            <li><strong class="text-white">Mon – Fri:</strong> 08:00 – 17:00</li>
+            <li><strong class="text-white">Saturday:</strong> Closed</li>
+            <li><strong class="text-white">Sunday:</strong> Closed</li>
+            <li><strong class="text-white">Domain:</strong> pumpsacc.co.za</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Legal Links -->
+      <div class="flex flex-wrap justify-center sm:justify-start gap-x-5 gap-y-2 text-xs text-slate-400 pb-5">
+        <a href="#terms" onclick="openLegal('terms');return false;" class="hover:text-brand-orange transition-colors">Terms &amp; Conditions</a>
+        <a href="#privacy" onclick="openLegal('privacy');return false;" class="hover:text-brand-orange transition-colors">Privacy Policy</a>
+        <a href="#cookies" onclick="openLegal('cookies');return false;" class="hover:text-brand-orange transition-colors">Cookie Notice</a>
+      </div>
+
+      <div class="border-t border-slate-800/80 pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-3">
+        <div>
+          © 2026 Pumps & Accessories Pty Ltd. All Rights Reserved. Booysens, Johannesburg.
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="tel:0114937656" class="hover:text-brand-orange">011 493 7656</a>
+          <span>•</span>
+          <a href="https://wa.me/27114937656" class="hover:text-emerald-400">WhatsApp Desk</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Mobile Action Bar (Visible only on mobile devices) -->
+  <div class="fixed bottom-0 inset-x-0 z-50 bg-brand-navy/95 backdrop-blur-lg border-t border-slate-700 p-3 lg:hidden shadow-2xl">
+    <div class="grid grid-cols-2 gap-3 max-w-md mx-auto">
+      
+      <!-- Direct Call Button -->
+      <a href="tel:0114937656" 
+         class="flex items-center justify-center gap-2 py-3 px-3 rounded-xl bg-slate-800 border border-slate-600 text-white font-bold text-sm active:scale-95 transition-transform shadow-md">
+        <svg class="w-4 h-4 text-brand-orange" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"></path>
+        </svg>
+        <span>Call 011 493 7656</span>
+      </a>
+
+      <!-- WhatsApp Quote Trigger -->
+      <a href="https://wa.me/27114937656?text=Hi%20Pumps%20%26%20Accessories,%20I%20would%20like%20to%20request%20a%20quote%20for%20pumps/spare%20parts." 
+         target="_blank" rel="noopener noreferrer"
+         class="flex items-center justify-center gap-2 py-3 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm active:scale-95 transition-transform shadow-md">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+        </svg>
+        <span>WhatsApp Quote</span>
+      </a>
+
+    </div>
+  </div>
+
+
+  <!-- Cookie Banner -->
+  <div id="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie notice" hidden class="fixed z-[60] left-3 right-3 bottom-[5.5rem] lg:bottom-4 lg:left-4 lg:right-auto lg:max-w-md bg-white text-slate-700 border border-slate-200 rounded-2xl shadow-2xl p-4 sm:p-5">
+    <p class="text-sm leading-relaxed">We only store what is needed to remember this choice. We don&rsquo;t use advertising or analytics cookies. WhatsApp and Google Maps links open services with their own cookies. See our <a href="#cookies" onclick="openLegal('cookies');return false;" class="text-orange-700 underline font-semibold">Cookie Notice</a> and <a href="#privacy" onclick="openLegal('privacy');return false;" class="text-orange-700 underline font-semibold">Privacy Policy</a>.</p>
+    <div class="mt-3 flex flex-wrap gap-2">
+      <button type="button" onclick="setCookieChoice('all')" class="px-4 py-2 rounded-lg bg-brand-navy text-white text-sm font-bold hover:opacity-90">Accept</button>
+      <button type="button" onclick="setCookieChoice('essential')" class="px-4 py-2 rounded-lg border border-slate-300 text-slate-800 text-sm font-bold hover:bg-slate-50">Essential only</button>
+    </div>
+  </div>
+
+  <dialog id="legal-terms" aria-labelledby="legal-terms-title" class="legal-dialog w-[min(94vw,760px)] max-h-[88vh] rounded-2xl p-0 bg-white text-slate-700 shadow-2xl backdrop:bg-slate-900/70 backdrop:backdrop-blur-sm m-auto overflow-hidden">
+    <div class="flex flex-col max-h-[88vh]">
+      <div class="flex items-center justify-between gap-4 px-5 sm:px-7 py-4 border-b border-slate-200 bg-white">
+        <h2 id="legal-terms-title" class="text-lg sm:text-xl font-black text-brand-navy">Terms &amp; Conditions</h2>
+        <button type="button" onclick="closeLegal('terms')" aria-label="Close" class="w-9 h-9 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xl leading-none font-bold">&times;</button>
+      </div>
+      <div class="px-5 sm:px-7 py-5 overflow-y-auto text-sm leading-relaxed"><p class="mb-3"><em>Last updated: 2 November 2026</em></p><p class="mb-3">These terms apply to this website and to goods and services supplied by Pumps & Accessories Pty Ltd ("we", "us", "our"), 8 Hay St, Booysens, Johannesburg, 2091. By using the website or accepting a quotation from us you agree to them. They do not limit any rights you have under the Consumer Protection Act 68 of 2008 (CPA) or other South African law.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">1. Our services</h3><p class="mb-3">We supply and install industrial pumps, spare parts, mechanical seals, valves and hoses, and workshop overhaul and repair services. Descriptions on the website are general. The scope, price and specifications for your job are those in our written quotation or invoice.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">2. Enquiries and quotations</h3><p class="mb-3">The website enquiry form only prepares a WhatsApp message to us. It is a request for information, not an order or a quotation, and it does not create a contract.</p><p class="mb-3">Quotations are valid for the period shown on them. Prices may change if the site inspection shows different conditions, if the scope changes, or if supplier prices change after the quotation expires. Photos and illustrations on the website are for illustration only.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">3. Orders, payment and ownership</h3><p class="mb-3">An order is accepted when you confirm the quotation in writing (including by WhatsApp or email) and any deposit stated in it is paid. Payment terms are those in the quotation or invoice.</p><p class="mb-3">Ownership of goods supplied stays with us until they are paid for in full. Risk passes to you on delivery or installation. Overdue accounts may attract interest and recovery costs as allowed by law.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">4. Site access and installation</h3><p class="mb-3">You must give us safe and timely access to the site, and make sure water and electricity are available where needed. You must tell us about any known hazards, existing faults or restrictions (for example in the plumbing, wiring or tanks). Delays caused by access or site conditions may change the timing and cost of the job.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">5. Product selection and specifications</h3><p class="mb-3">Pump and spare-part recommendations are based on the duty information you give us (for example the fluid, temperature, pressure, flow, solids content and materials of construction). You are responsible for the accuracy of that information. Please confirm the specification on the quotation before you order.</p><p class="mb-3">Technical data, catalogue images and stock availability shown on the website are for guidance only and may change without notice.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">6. Business customers</h3><p class="mb-3">The Consumer Protection Act does not apply to every business customer. Where you buy for business purposes on an account, the credit application and the payment terms agreed with us apply in addition to these terms.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">7. Workshop repairs and overhauls</h3><p class="mb-3">Items for repair or overhaul are assessed first. We may charge an assessment fee, which will be disclosed beforehand, if you decline the quotation or if the item cannot be economically repaired.</p><p class="mb-3">Repaired items must be collected within the period stated on the job card or quotation. After that, storage charges may apply as stated there. Parts that are worn out or damaged by the original fault are not covered by the repair warranty.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">8. Warranties</h3><p class="mb-3">Goods carry the manufacturer's or supplier's warranty, and we will help you lodge a claim where reasonable. Any warranty on our workmanship is the one stated on your quotation or invoice.</p><p class="mb-3">Warranties do not cover damage from misuse, lack of maintenance, power surges, running dry, freezing, unauthorised repairs or work by others, or problems that existed before our work. Nothing here removes your rights to goods that are of good quality and fit for purpose under the CPA.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">9. Cancellations and returns</h3><p class="mb-3">Special-order and custom-built items, and work already started, may not be cancellable or returnable except as the CPA allows. Cancellation charges and restocking fees, where they apply, will be reasonable and will be disclosed in the quotation. Any right you have to cancel under the CPA (including the cooling-off right for certain direct-marketing transactions) is not affected.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">10. Limitation of liability</h3><p class="mb-3">To the extent the law allows, we are not liable for indirect or consequential loss, loss of profit, or loss of production caused by a fault, delay or interruption. This does not exclude liability that cannot lawfully be excluded, such as liability for our gross negligence, or your rights under the CPA.</p><p class="mb-3">You are responsible for the ongoing care of equipment as recommended by us, and for keeping our service recommendations and records.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">11. Use of this website</h3><p class="mb-3">The website, its text, logos and images belong to us or are used with permission. You may not copy or reuse them for commercial purposes without our written consent. We try to keep the information accurate, but it may be out of date or contain errors. Please confirm the details with us before you rely on them.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">12. Privacy and cookies</h3><p class="mb-3">How we handle personal information is explained in our <a href="#privacy" onclick="openLegal('privacy');return false;" class="text-orange-700 underline">Privacy Policy</a> and <a href="#cookies" onclick="openLegal('cookies');return false;" class="text-orange-700 underline">Cookie Notice</a>.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">13. Complaints and disputes</h3><p class="mb-3">Please raise any complaint with us first on 011 493 7656 and we will try to resolve it quickly. If we cannot, you may approach the National Consumer Commission, the relevant ombud or tribunal, or a South African court.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">14. Governing law and changes</h3><p class="mb-3">These terms are governed by the laws of the Republic of South Africa. We may update them from time to time. The version on the website on the date of your order applies to that order.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">15. Contact us</h3><p class="mb-3">Pumps & Accessories Pty Ltd<br>8 Hay St, Booysens, Johannesburg, 2091<br>Phone / WhatsApp: <a href="tel:+27114937656" class="text-orange-700 underline">011 493 7656</a></p></div>
+      <div class="px-5 sm:px-7 py-3 border-t border-slate-200 bg-slate-50 text-right">
+        <button type="button" onclick="closeLegal('terms')" class="px-5 py-2 rounded-lg bg-brand-navy text-white text-sm font-bold hover:opacity-90">Close</button>
+      </div>
+    </div>
+  </dialog>
+  <dialog id="legal-privacy" aria-labelledby="legal-privacy-title" class="legal-dialog w-[min(94vw,760px)] max-h-[88vh] rounded-2xl p-0 bg-white text-slate-700 shadow-2xl backdrop:bg-slate-900/70 backdrop:backdrop-blur-sm m-auto overflow-hidden">
+    <div class="flex flex-col max-h-[88vh]">
+      <div class="flex items-center justify-between gap-4 px-5 sm:px-7 py-4 border-b border-slate-200 bg-white">
+        <h2 id="legal-privacy-title" class="text-lg sm:text-xl font-black text-brand-navy">Privacy Policy</h2>
+        <button type="button" onclick="closeLegal('privacy')" aria-label="Close" class="w-9 h-9 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xl leading-none font-bold">&times;</button>
+      </div>
+      <div class="px-5 sm:px-7 py-5 overflow-y-auto text-sm leading-relaxed"><p class="mb-3"><em>Last updated: 2 November 2026</em></p><p class="mb-3">Pumps & Accessories Pty Ltd ("we", "us") respects your privacy. This policy explains how we collect and use personal information in line with the Protection of Personal Information Act 4 of 2013 (POPIA). We are the "responsible party" for the information described here.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">1. Information we collect</h3><p class="mb-3">We collect only what we need to respond to you and do the work:</p><ul class="list-disc pl-5 mb-3 space-y-1"><li>Contact details you give us: name, phone or WhatsApp number, and email or address where you provide them.</li><li>Job details you share with us: site or property address, type of property, water or pump requirements, photos, and anything you type into the enquiry form or a WhatsApp message.</li><li>Records of quotations, orders, invoices, payments and service history for customers.</li><li>Basic technical data (such as your IP address and browser type) that is visible to the services that deliver this website, as described in the Cookie Notice.</li></ul><p class="mb-3">The website does not ask for ID numbers or bank card details. Please do not send these through the enquiry form.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">2. How the enquiry form works</h3><p class="mb-3">The enquiry form does not store what you type on our website. When you press send, it opens WhatsApp on your device with a pre-filled message to us. What you send is then handled by WhatsApp (Meta) under its own terms and privacy policy, and by us once we receive it.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">3. Why we use your information</h3><ul class="list-disc pl-5 mb-3 space-y-1"><li>To reply to enquiries, prepare quotations and arrange site visits.</li><li>To supply, install, service and invoice goods and services, and to honour warranties.</li><li>To keep business, tax and accounting records as the law requires.</li><li>To contact you about your job or an existing service relationship. We will not send you marketing unless you have agreed to it or the law allows it, and you may opt out at any time.</li></ul><p class="mb-3">We process your information because you asked us to (to take steps towards or perform a contract), because the law requires it, or because we have a legitimate interest in running our business without harming your privacy.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">4. Who we share it with</h3><p class="mb-3">We do not sell your information. We share it only where needed, with technicians and staff working on your job, suppliers and manufacturers (for warranty claims), our accountants and payment providers, and authorities when the law requires. Service providers act on our instructions and must protect your information.</p><p class="mb-3">WhatsApp (Meta) and some website delivery services operate servers outside South Africa, so your information may be transferred across borders. We use these services only where they offer adequate protection.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">5. How long we keep it</h3><p class="mb-3">We keep information only as long as needed for the purpose it was collected, or as the law requires. Enquiries that do not lead to work are deleted or cleared from our active records within a reasonable period. Financial records are kept for the legally required period.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">6. Security</h3><p class="mb-3">We take reasonable technical and organisational steps to protect personal information from loss, misuse and unauthorised access. No method of transmission or storage is completely secure. If a breach affects your information, we will notify you and the Information Regulator as POPIA requires.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">7. Your rights</h3><p class="mb-3">You may ask us to confirm whether we hold information about you, to see it, to correct or delete it, or to stop using it. You may object to processing, and withdraw consent where we rely on it. To do so, contact us using the details below. We may need to verify your identity first.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">8. Children</h3><p class="mb-3">Our website and services are aimed at adults and businesses. We do not knowingly collect information from anyone under 18 without a parent or guardian's consent.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">9. Complaints</h3><p class="mb-3">If you are unhappy with how we handle your information, please contact us first. You may also complain to the Information Regulator (South Africa): <a href="https://inforegulator.org.za" target="_blank" rel="noopener noreferrer" class="text-orange-700 underline">inforegulator.org.za</a>, <a href="mailto:complaints.IR@justice.gov.za" class="text-orange-700 underline">complaints.IR@justice.gov.za</a>.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">10. Changes to this policy</h3><p class="mb-3">We may update this policy. The latest version and its date are always on this website.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">11. Contact us</h3><p class="mb-3">Information Officer, Pumps & Accessories Pty Ltd<br>8 Hay St, Booysens, Johannesburg, 2091<br>Phone / WhatsApp: <a href="tel:+27114937656" class="text-orange-700 underline">011 493 7656</a></p></div>
+      <div class="px-5 sm:px-7 py-3 border-t border-slate-200 bg-slate-50 text-right">
+        <button type="button" onclick="closeLegal('privacy')" class="px-5 py-2 rounded-lg bg-brand-navy text-white text-sm font-bold hover:opacity-90">Close</button>
+      </div>
+    </div>
+  </dialog>
+  <dialog id="legal-cookies" aria-labelledby="legal-cookies-title" class="legal-dialog w-[min(94vw,760px)] max-h-[88vh] rounded-2xl p-0 bg-white text-slate-700 shadow-2xl backdrop:bg-slate-900/70 backdrop:backdrop-blur-sm m-auto overflow-hidden">
+    <div class="flex flex-col max-h-[88vh]">
+      <div class="flex items-center justify-between gap-4 px-5 sm:px-7 py-4 border-b border-slate-200 bg-white">
+        <h2 id="legal-cookies-title" class="text-lg sm:text-xl font-black text-brand-navy">Cookie Notice</h2>
+        <button type="button" onclick="closeLegal('cookies')" aria-label="Close" class="w-9 h-9 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xl leading-none font-bold">&times;</button>
+      </div>
+      <div class="px-5 sm:px-7 py-5 overflow-y-auto text-sm leading-relaxed"><p class="mb-3"><em>Last updated: 2 November 2026</em></p><p class="mb-3">Cookies and similar technologies (such as local storage) are small pieces of data saved on your device by a website.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">What this website stores</h3><ul class="list-disc pl-5 mb-3 space-y-1"><li><strong>Your cookie choice.</strong> We save whether you accepted or declined in your browser's local storage so we do not ask you on every visit. This is essential and does not identify you.</li></ul><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">What we do not use</h3><p class="mb-3">This website does not currently use advertising, tracking or analytics cookies. If we add them later, we will update this notice and ask for your consent first.</p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">Third parties</h3><ul class="list-disc pl-5 mb-3 space-y-1"><li>The website loads code libraries from content delivery networks (such as cdn.tailwindcss.com and cdn.jsdelivr.net). These providers can see your IP address and browser details when files are loaded.</li><li>Links to WhatsApp and Google Maps open those services, which have their own cookies and privacy policies. We do not control them.</li></ul><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">Managing cookies</h3><p class="mb-3">You can clear or block stored data in your browser settings. You can also change your choice here at any time:</p><p><button type="button" onclick="resetCookieChoice()" class="px-4 py-2 rounded-lg bg-brand-navy text-white text-sm font-bold hover:opacity-90">Change my cookie choice</button></p><h3 class="text-base font-extrabold text-brand-navy mt-6 mb-2">Contact</h3><p class="mb-3">Questions? Call or WhatsApp Pumps & Accessories Pty Ltd on <a href="tel:+27114937656" class="text-orange-700 underline">011 493 7656</a>.</p></div>
+      <div class="px-5 sm:px-7 py-3 border-t border-slate-200 bg-slate-50 text-right">
+        <button type="button" onclick="closeLegal('cookies')" class="px-5 py-2 rounded-lg bg-brand-navy text-white text-sm font-bold hover:opacity-90">Close</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script>
+    function openLegal(id){var d=document.getElementById('legal-'+id);if(!d)return;document.querySelectorAll('dialog.legal-dialog[open]').forEach(function(o){o.close();});if(d.showModal){d.showModal();}else{d.setAttribute('open','');}d.querySelector('.overflow-y-auto').scrollTop=0;}
+    function closeLegal(id){var d=document.getElementById('legal-'+id);if(d&&d.close)d.close();}
+    document.querySelectorAll('dialog.legal-dialog').forEach(function(d){d.addEventListener('click',function(e){if(e.target===d)d.close();});});
+    function getCookieChoice(){try{return localStorage.getItem('cookie-choice');}catch(e){return null;}}
+    function setCookieChoice(v){try{localStorage.setItem('cookie-choice',v);}catch(e){}window.cookieConsent=v;document.getElementById('cookie-banner').hidden=true;}
+    function resetCookieChoice(){try{localStorage.removeItem('cookie-choice');}catch(e){}window.cookieConsent=null;closeLegal('cookies');document.getElementById('cookie-banner').hidden=false;}
+    (function(){var c=getCookieChoice();window.cookieConsent=c;if(!c){document.getElementById('cookie-banner').hidden=false;}})();
+  </script>
+
+</body>
+</html>
